@@ -22,10 +22,11 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
+    github: "https://github.com/Andres94b",
+    linkedin: "https://www.linkedin.com/in/andres-bonilla-07/",
+    twitter: "",
+    docs: "",
+    discord: "",
     sponsor: "https://patreon.com/jrgarciadev",
   },
 };
