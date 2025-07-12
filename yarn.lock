@@ -157,6 +157,18 @@
     "@react-types/overlays" "3.8.16"
     "@react-types/shared" "3.30.0"
 
+"@heroui/avatar@^2.2.18":
+  version "2.2.18"
+  resolved "https://registry.yarnpkg.com/@heroui/avatar/-/avatar-2.2.18.tgz#7d0e33c4ab499be12a18705afef0e39ddca27ad7"
+  integrity sha512-vmbC/vbmG7KWbllE5Od89NSz9YYfHDo4x27fhd7KEyS8LxygOTvPXWGPwiPJWrCjrmK7hrdf6RTPUe9g0j6xIw==
+  dependencies:
+    "@heroui/react-utils" "2.1.11"
+    "@heroui/shared-utils" "2.1.9"
+    "@heroui/use-image" "2.1.10"
+    "@react-aria/focus" "3.20.5"
+    "@react-aria/interactions" "3.25.3"
+    "@react-aria/utils" "3.29.1"
+
 "@heroui/button@2.2.22":
   version "2.2.22"
   resolved "https://registry.yarnpkg.com/@heroui/button/-/button-2.2.22.tgz#335d3d8a5c2f64334aa2c2fe8defc9be63a4ba49"
@@ -172,6 +184,18 @@
     "@react-aria/utils" "3.29.1"
     "@react-types/shared" "3.30.0"
 
+"@heroui/chip@^2.2.18":
+  version "2.2.18"
+  resolved "https://registry.yarnpkg.com/@heroui/chip/-/chip-2.2.18.tgz#424f64face94f221cf5a664bf9a8ea41b75c7de2"
+  integrity sha512-8v+/3PfrFfxSTd9+VlQZVLURvBRIof9TLMD2Y1X5ZlrFrwnLkQYHQVqLZVpIMG8+ood9Vy3rq/qbqCdCSJTlIQ==
+  dependencies:
+    "@heroui/react-utils" "2.1.11"
+    "@heroui/shared-icons" "2.1.9"
+    "@heroui/shared-utils" "2.1.9"
+    "@react-aria/focus" "3.20.5"
+    "@react-aria/interactions" "3.25.3"
+    "@react-aria/utils" "3.29.1"
+
 "@heroui/code@2.2.16":
   version "2.2.16"
   resolved "https://registry.yarnpkg.com/@heroui/code/-/code-2.2.16.tgz#6b47a330cde9edb64a287f1a106cc855470fcf4e"
@@ -181,7 +205,7 @@
     "@heroui/shared-utils" "2.1.9"
     "@heroui/system-rsc" "2.3.15"
 
-"@heroui/divider@2.2.15":
+"@heroui/divider@2.2.15", "@heroui/divider@^2.2.15":
   version "2.2.15"
   resolved "https://registry.yarnpkg.com/@heroui/divider/-/divider-2.2.15.tgz#bb73c76e70786ca580af0323b00c0636790eb9da"
   integrity sha512-RXtqRqZ78fDRhiKzY8qXOIDExfMf3YLnwWSv5ePcgG2GMQJiefd0WGV3RP6Jr2yaShFq85gpUKIoZzai1vsI+g==
@@ -437,6 +461,14 @@
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/@heroui/use-clipboard/-/use-clipboard-2.1.8.tgz#1a6f89424d83e2f9b6aaee298d708b0f3e1fe46c"
   integrity sha512-itT5PCoMRoa6rjV51Z9wxeDQpSYMZj2sDFYrM7anGFO/4CAsQ/NfQoPwl5+kX0guqCcCGMqgFnNzNyQuNNsPtg==
+
+"@heroui/use-image@2.1.10":
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/@heroui/use-image/-/use-image-2.1.10.tgz#8556e97867fc651b695a69d44c28798e72075c15"
+  integrity sha512-I33fojDY/9MiXsJATO5nDVLlBhihQBdCeIQzPfZB5pUO1XQl193D0O1lUrYko9HyxbzYdiu2Ffmd0FC/NP/qlw==
+  dependencies:
+    "@heroui/react-utils" "2.1.11"
+    "@heroui/use-safe-layout-effect" "2.1.7"
 
 "@heroui/use-is-mobile@2.2.10":
   version "2.2.10"
