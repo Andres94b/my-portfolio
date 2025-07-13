@@ -9,11 +9,15 @@ import { GithubIcon } from "@/components/icons";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center gap-4">
-      <div>
-        <span className={title({ color: "blue" })}>
-          Welcome to my page
-        </span>{" "}
+    <section className="flex flex-col items-center justify-center gap-4 py-16 md:pd-10">
+      <div className="inline-block text-center justify-center">
+        <span className={title({ color: "blue" })}>Welcome to my page</span>
+        <br />
+        <span className={subtitle()}>
+          It is currently under development so some pages will not seem
+          completed.
+        </span>
+        <span>Feel free to explore</span>
       </div>
       <div></div>
     </section>
