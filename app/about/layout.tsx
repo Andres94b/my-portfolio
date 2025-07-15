@@ -16,8 +16,8 @@ export default function AboutLayout({
     //     {children}
     //   </div>
     // </section>
-    <div className="flex justify-center overflow-hidden gap-20">
-      <main>{children}</main>
+    <div className="flex justify-center gap-20">
+      <main className="overflow-auto">{children}</main>
       <SideBarAbout />
     </div>
   );
