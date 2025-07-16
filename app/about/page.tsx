@@ -9,7 +9,7 @@ import { Chip } from "@heroui/chip";
 import { Divider } from "@heroui/divider";
 import { Link } from "@heroui/link";
 
-const profile =
+export const profile =
   "I am a Software Developer with a background in Robotics Engineering." +
   "Looking for opportunities in front end and/or back end development." +
   "Skilled in building responsive user interfaces using React and .NET" +

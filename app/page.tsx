@@ -6,20 +6,28 @@ import { button as buttonStyles } from "@heroui/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import { Divider } from "@heroui/divider";
+import Section from "@/components/home/section";
+import { profile } from "./about/page";
+import ProjectSection from "@/components/home/projectSection";
 
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-16 md:pd-10">
       <div className="inline-block text-center justify-center">
-        <span className={title({ color: "blue" })}>Welcome to my page</span>
+        <span className={title({ color: "blue" })}>Welcome</span>
         <br />
         <span className={subtitle()}>
-          It is currently under development so some pages will not seem
+          This page is currently under development so some pages will not seem
           completed.
         </span>
-        <span>Feel free to explore</span>
+        <span className={subtitle()}>Feel free to explore</span>
       </div>
-      <div></div>
+      <Divider />
+      <Section heading="Who am I?" description={profile} />
+      <Divider />
+
+      <ProjectSection />
     </section>
     // <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
     //   <div className="inline-block max-w-xl text-center justify-center">
