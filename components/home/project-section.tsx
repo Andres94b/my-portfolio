@@ -11,11 +11,9 @@ export default function ProjectSection() {
         <Card className="col-span-12 sm:col-span-4 h-[300px]">
           <CardHeader className="absolute z-10 top-1 flex-col items-start!">
             <p className="text-tiny text-white/60 uppercase font-bold">
-              What to watch
+              An Android Project
             </p>
-            <h4 className="text-white font-medium text-large">
-              Stream the Acme event
-            </h4>
+            <h4 className="text-white font-medium text-large">Farmily</h4>
           </CardHeader>
           <Image
             removeWrapper
@@ -24,7 +22,7 @@ export default function ProjectSection() {
             src="https://img.youtube.com/vi/9CKMqmhNcUc/0.jpg"
           />
         </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        {/* <Card className="col-span-12 sm:col-span-4 h-[300px]">
           <CardHeader className="absolute z-10 top-1 flex-col items-start!">
             <p className="text-tiny text-white/60 uppercase font-bold">
               Plant a tree
@@ -39,8 +37,8 @@ export default function ProjectSection() {
             className="z-0 w-full h-full object-cover"
             src="https://heroui.com/images/card-example-3.jpeg"
           />
-        </Card>
-        <Card className="col-span-12 sm:col-span-4 h-[300px]">
+        </Card> */}
+        {/* <Card className="col-span-12 sm:col-span-4 h-[300px]">
           <CardHeader className="absolute z-10 top-1 flex-col items-start!">
             <p className="text-tiny text-white/60 uppercase font-bold">
               Supercharged
@@ -55,14 +53,16 @@ export default function ProjectSection() {
             className="z-0 w-full h-full object-cover"
             src="https://heroui.com/images/card-example-2.jpeg"
           />
-        </Card>
+        </Card> */}
         <Card
           isFooterBlurred
           className="w-full h-[300px] col-span-12 sm:col-span-5"
         >
           <CardHeader className="absolute z-10 top-1 flex-col items-start">
-            <p className="text-tiny text-white/60 uppercase font-bold">New</p>
-            <h4 className="text-black font-medium text-2xl">Acme camera</h4>
+            <p className="text-tiny text-white/60 uppercase font-bold">
+              A .NET Core Project
+            </p>
+            <h4 className="text-black font-medium text-2xl">Lease Link</h4>
           </CardHeader>
           <Image
             removeWrapper
@@ -70,10 +70,10 @@ export default function ProjectSection() {
             className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
             src="https://img.youtube.com/vi/I7WIhnHABq0/0.jpg"
           />
-          <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
+          {/* <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
             <div>
-              <p className="text-black text-tiny">Available soon.</p>
-              <p className="text-black text-tiny">Get notified.</p>
+              <p className="text-black text-tiny">A .NET Core Project</p>
+              <p className="text-black text-tiny">Lease Link</p>
             </div>
             <Button
               className="text-tiny"
@@ -83,9 +83,9 @@ export default function ProjectSection() {
             >
               Notify Me
             </Button>
-          </CardFooter>
+          </CardFooter> */}
         </Card>
-        <Card
+        {/* <Card
           isFooterBlurred
           className="w-full h-[300px] col-span-12 sm:col-span-7"
         >
@@ -121,7 +121,7 @@ export default function ProjectSection() {
               Get App
             </Button>
           </CardFooter>
-        </Card>
+        </Card> */}
       </div>
     </div>
   );
