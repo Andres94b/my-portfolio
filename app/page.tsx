@@ -2,7 +2,7 @@ import { title, subtitle } from "@/components/primitives";
 import { Divider } from "@heroui/divider";
 import Section from "@/components/home/section";
 import ProjectSection from "@/components/home/project-section";
-import { profile } from "./constants/constants";
+import { profile } from "../utils/constants";
 
 export default function Home() {
   return (

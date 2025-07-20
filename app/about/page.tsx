@@ -7,7 +7,7 @@ import {
   experiences,
   otherExperiences,
   profile,
-} from "../constants/constants";
+} from "../../utils/constants";
 
 export default function AboutPage() {
   return (
