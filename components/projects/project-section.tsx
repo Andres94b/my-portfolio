@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@heroui/button";
 import { Image } from "@heroui/image";
 import { title } from "../primitives";
 import { useRouter } from "next/navigation";
@@ -22,6 +21,7 @@ export default function ProjectSection({
   const handleOnClick = () => {
     router.push(videoPath);
   };
+
   return (
     <div className="flex gap-10 justify-center">
       <div>

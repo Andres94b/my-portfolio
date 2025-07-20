@@ -2,10 +2,7 @@ import { siteConfig } from "@/config/site";
 import { Avatar } from "@heroui/avatar";
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
-import { Navbar } from "@heroui/navbar";
 import { LocationIcon } from "../icons";
-import { Chip } from "@heroui/chip";
-import { Divider } from "@heroui/divider";
 
 export const SideBarAbout = () => {
   return (

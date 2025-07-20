@@ -1,9 +1,4 @@
-import { LocationIcon } from "@/components/icons";
 import { SideBarAbout } from "@/components/layout/sidebar-about";
-import { siteConfig } from "@/config/site";
-import { Avatar } from "@heroui/avatar";
-import { Button } from "@heroui/button";
-import { Link } from "@heroui/link";
 
 export default function AboutLayout({
   children,

@@ -1,5 +1,4 @@
-import { Button } from "@heroui/button";
-import { Card, CardFooter, CardHeader } from "@heroui/card";
+import { Card, CardHeader } from "@heroui/card";
 import { Image } from "@heroui/image";
 import { title } from "../primitives";
 
