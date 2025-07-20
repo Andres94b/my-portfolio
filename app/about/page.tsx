@@ -10,20 +10,19 @@ import { Divider } from "@heroui/divider";
 import { Link } from "@heroui/link";
 
 export const profile =
-  "I am a Software Developer with a background in Robotics Engineering." +
-  "Looking for opportunities in front end and/or back end development." +
-  "Skilled in building responsive user interfaces using React and .NET" +
-  "Core, and developing RESTful APIs with Node.js. Experienced in" +
-  "integrating components with Docker, Postgres, and AWS S3. Passionate" +
-  "about software development and excited to collaborate with kind and" +
-  "hardworking teams combining creativity and technical excellence.";
+  "I'm a Software Developer and Mechatronics Engineer with experience building scalable, high-performance systems using .NET Core, SQL Server, nodejs, Postgres, React and Angular. I specialize in designing microservices with RESTful APIs." +
+  "I thrive in collaborative environments creating clean code, continuous improvement, and user-oriented solutions. I am passionate about integrating AI-powered features and driving innovation in both technical and business processes." +
+  "I thrive in collaborative environments creating clean code, continuous improvement, and user-oriented solutions. I am passionate about integrating AI-powered features and driving innovation in both technical and business processes." +
+  "I’m always eager to learn, mentor, and contribute to high-performing Agile teams. " +
+  "🔧 Core Skills: .NET, C#, REST APIs, MS SQL Server, OOP, Microservices, CI/CD, Agile" +
+  "💬 Soft Skills: Team collaboration, problem solving, attention to detail, excellent communication, mentoring, adaptability";
 
 const experiences = [
   {
     name: "Fireraven AI",
     position: "Full Stack Developer",
-    from: "April 2025",
-    to: "June 2025",
+    from: "January 2025",
+    to: "July 2025",
     location: "Montreal, Canada",
     bullets: [
       "Developed and implemented new features using Next.js, React, Nest.js, and Node.js, improving user interface responsiveness and functionality",
