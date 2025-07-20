@@ -1,6 +1,6 @@
 # Welcome to my Portfolio
 
-It was built using a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+It was built using React Libraries and a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
 
 ## Technologies Used
 
