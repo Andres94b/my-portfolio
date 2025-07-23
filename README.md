@@ -4,7 +4,7 @@ It was built using React Libraries and a template for creating applications usin
 
 ## Visit
 
-Thist page is currently accessible on the following link -> [Andres' Page] (https://andresbonilla.dev)
+Thist page is currently accessible on the following link -> [Andres' Page](https://andresbonilla.dev)
 
 ## Technologies Used
 
