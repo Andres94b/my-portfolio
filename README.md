@@ -2,6 +2,10 @@
 
 It was built using React Libraries and a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
 
+## Visit
+
+Thist page is currently accessible on the following link -> [Andres' Page](https://andresbonilla.dev)
+
 ## Technologies Used
 
 - [Next.js 14](https://nextjs.org/docs/getting-started)
@@ -11,8 +15,6 @@ It was built using React Libraries and a template for creating applications usin
 - [TypeScript](https://www.typescriptlang.org/)
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
-
-## How to Use
 
 ### Use the template with create-next-app
 
