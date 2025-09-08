@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: #f9f5e3;
+  --middleground: #3a2b23;
+  --foreground: #143109;
+}
+
+.dark {
+  --background: #1c1e2f;
+  --middleground: #f9f5e3;
+  --foreground: #83745c;
+}
+
+/* body {
+  background-image: url("/avatars/circuit-board-pattern.svg");
+} */
+
+.filling-color {
+  color: var(--middleground);
+}

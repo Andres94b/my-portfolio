@@ -1,11 +1,6 @@
 export const profile = {
   summary:
-    "I'm a Software Developer and Mechatronics Engineer with experience building scalable, high-performance systems using .NET Core, SQL Server, nodejs, Postgres, React and Angular. I specialize in designing microservices with RESTful APIs." +
-    "I thrive in collaborative environments creating clean code, continuous improvement, and user-oriented solutions. I am passionate about integrating AI-powered features and driving innovation in both technical and business processes." +
-    "I thrive in collaborative environments creating clean code, continuous improvement, and user-oriented solutions. I am passionate about integrating AI-powered features and driving innovation in both technical and business processes." +
-    "I’m always eager to learn, mentor, and contribute to high-performing Agile teams. " +
-    "🔧 Core Skills: .NET, C#, REST APIs, MS SQL Server, OOP, Microservices, CI/CD, Agile" +
-    "💬 Soft Skills: Team collaboration, problem solving, attention to detail, excellent communication, mentoring, adaptability",
+    "Software Developer with a strong foundation in scalable back and front end applications using Node.js, Spring Boot, .NET Core and React. Specialized in REST API design and Embedded systems, and proficient in managing relational SQL and NoSQL databases. Successfully led database schema design and migrations with PostgreSQL, ensuring high performance in agile environments. Eager to leverage backend expertise to drive efficient and robust system architectures.",
 };
 export const experiences = [
   {

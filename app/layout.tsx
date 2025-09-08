@@ -1,12 +1,11 @@
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
 import clsx from "clsx";
-
 import { Providers } from "./providers";
-
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/layout/navbar";
+import { BackgroundPattern } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: {
@@ -21,8 +20,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
+    { media: "(prefers-color-scheme: light)", color: "#F9F5E3" },
+    { media: "(prefers-color-scheme: dark)", color: "#143109" },
   ],
 };
 
@@ -36,16 +35,15 @@ export default function RootLayout({
       <head />
       <body
         className={clsx(
-          "min-h-screen text-foreground bg-background font-sans antialiased",
+          "min-h-screen text-middleground bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col ">
+            <BackgroundPattern className="absolute inset-0 -z-10" />
             <Navbar />
-            <main className="container mx-auto max-w-7xl pt-6 px-6 flex-grow">
-              {children}
-            </main>
+            <main className="container max-w-full z-10">{children}</main>
           </div>
         </Providers>
       </body>

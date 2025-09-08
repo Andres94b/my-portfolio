@@ -20,7 +20,7 @@ export const Navbar = () => {
     <Input
       aria-label="Search"
       classNames={{
-        inputWrapper: "bg-default-100",
+        inputWrapper: "bg-background",
         input: "text-sm",
       }}
       endContent={
@@ -31,16 +31,20 @@ export const Navbar = () => {
       labelPlacement="outside"
       placeholder="Search..."
       startContent={
-        <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
+        <SearchIcon className="text-base text-middleground pointer-events-none flex-shrink-0" />
       }
       type="search"
     />
   );
 
   return (
-    <HeroUINavbar maxWidth="xl" position="sticky">
+    <HeroUINavbar
+      maxWidth="xl"
+      position="sticky"
+      className="bg-foreground text-background"
+    >
       {/* Name in Navbar */}
-      <NavbarContent className=" basis-1/5 sm:basis-full" justify="start">
+      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className=" gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
             <p className={"font-bold text-inherit"}>Andres Bonilla</p>
@@ -49,16 +53,15 @@ export const Navbar = () => {
       </NavbarContent>
 
       {/* Navbar tabs */}
-      <NavbarContent justify="center">
+      <NavbarContent justify="center" className="text-background">
         <ul className="flex gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
                 className={clsx(
-                  linkStyles({ color: "foreground" }),
                   "data-[active=true]:text-primary data-[active=true]:font-medium"
                 )}
-                color="foreground"
+                color="background"
                 href={item.href}
               >
                 {item.label}
@@ -72,17 +75,19 @@ export const Navbar = () => {
       <NavbarContent className="sm:flex basis-1/5 sm:basis-full" justify="end">
         <NavbarItem className="sm:flex gap-2">
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-            <GithubIcon className="text-default-500" />
+            <GithubIcon className="text-background" />
           </Link>
           <Link
             isExternal
             aria-label="LinkedIn"
             href={siteConfig.links.linkedin}
           >
-            <LinkedInIcon className="text-default-500" />
+            <LinkedInIcon className="text-background" />
           </Link>
         </NavbarItem>
-        <NavbarItem className="hidden lg:flex">{searchInput}</NavbarItem>
+        <NavbarItem className="text-background hidden lg:flex">
+          {searchInput}
+        </NavbarItem>
         {/* <NavbarItem className="hidden md:flex">
           <Button
             isExternal
