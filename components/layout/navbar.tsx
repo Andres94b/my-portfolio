@@ -13,7 +13,13 @@ import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { GithubIcon, SearchIcon, LinkedInIcon } from "@/components/icons";
+import {
+  GithubIcon,
+  SearchIcon,
+  LinkedInIcon,
+  CircleUser,
+} from "@/components/icons";
+import LoginModal from "../auth/login-modal";
 
 export const Navbar = () => {
   const searchInput = (
@@ -73,7 +79,7 @@ export const Navbar = () => {
       </NavbarContent>
 
       <NavbarContent className="sm:flex basis-1/5 sm:basis-full" justify="end">
-        <NavbarItem className="sm:flex gap-2">
+        {/* <NavbarItem className="sm:flex gap-2">
           <Link isExternal aria-label="Github" href={siteConfig.links.github}>
             <GithubIcon className="text-background" />
           </Link>
@@ -84,10 +90,13 @@ export const Navbar = () => {
           >
             <LinkedInIcon className="text-background" />
           </Link>
+        </NavbarItem> */}
+        <NavbarItem className="place-self-center mt-1">
+          <LoginModal />
         </NavbarItem>
-        <NavbarItem className="text-background hidden lg:flex">
+        {/* <NavbarItem className="text-background hidden lg:flex">
           {searchInput}
-        </NavbarItem>
+        </NavbarItem> */}
         {/* <NavbarItem className="hidden md:flex">
           <Button
             isExternal
